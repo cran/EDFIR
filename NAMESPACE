@@ -1,0 +1,5 @@
+import(lpSolve, geometry, vertexenum, MASS)
+importFrom(stats, na.omit, var)
+importFrom(utils, read.table)
+importFrom(graphics, filled.contour)
+export(estimate.shiftvec, heatmap.samples, build.isotopeframe)
